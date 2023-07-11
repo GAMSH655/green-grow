@@ -1,0 +1,199 @@
+   *{
+     margin: 0;
+     padding: 0;
+   }
+   
+header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 75px;
+    background-color: whitesmoke;
+}
+
+header li {
+     display: inline-block;
+     padding: 10px 20px;
+}
+header a{
+     text-decoration: none; 
+     color: black;
+     font-size: medium;
+     font-weight: bolder;
+     text-transform: capitalize ;
+     color:black;
+}
+header a:hover {
+      color: green;
+      border-bottom: 2px black solid;
+      transition: 0.9s all;
+}
+img{
+    height: 70px;
+    width: 70px;
+    margin-right: auto;
+    /* margin-top: 10px; */
+ }
+ .sign-btn,.log-btn {
+       color: green;
+       padding: 10px 10px;
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: medium;
+      width: 100px;
+      height: 35px;
+ }
+ .sign-btn {
+       margin-left:10px;
+ }
+ .sign-btn:hover,.log-btn:hover {
+       color: white;
+       background-color: green;
+       transition: 0.5s all;
+    }
+/***sign up*0**/
+input{
+    height: 25px;
+    border: solid 1px;
+    border-radius: 5px;
+     padding: 5px;
+}
+
+
+span{
+  color: green;
+  text-transform: capitalize;
+  font-weight: bold;
+} 
+/**
+h1::before{
+  content: "";
+  display: block;
+  width: 180px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+h1::after{
+  content: "";
+  display: block;
+  width: 180px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  
+}
+h1 {
+  font-family: sans-serif;
+  margin:80px  auto;
+  text-align: center;
+  font-size: 1rem;
+  max-width: 600px;
+  position: relative;
+} ***/
+
+
+       .btn-in , .btn-up {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+ background: rgb(13, 56, 13);
+ color: white;
+ font-weight: bold;
+ font-size: medium;
+ margin-left: 60px;
+ position: absolute;
+}
+.google{
+   height: 15px;
+   width: auto;
+}
+.btn , .btn-google {
+   background:#fff;
+   color: black;
+   margin-top: 20px;
+   margin-left:70px;
+   width: 250px;
+   margin-top: 50px;
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+}
+#number , #email , #password , #confirm {
+  width: 400px;
+  height: 25px;
+}
+p{
+  font-weight: light;
+     font-size: larger;
+     text-align: justify;
+     padding: 10px;
+}
+form{ 
+   width: 430px;
+   margin-left: 200px;
+}
+#number-in , #email-in {
+  width: 350px;
+}
+.form-div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  
+}
+
+main{
+     
+height: 700px;
+}
+
+.down-text {
+  background-color: rgb(46, 177, 46);
+  height: 150px;
+} 
+
+.p-down-inner {
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  text-transform: capitalize;
+  text-align: center;
+  white-space: normal;
+}
+footer{
+background-color:black;
+color: white;
+height: 300px;
+width: auto;   
+}
+.ftr{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+#input-ftr {
+height: 30px;
+width: 250px;
+}
+
+.footer-border {
+height: 250px;
+width: 380px;
+}
+.ftr-txt {
+color: white;
+font-weight: bold;
+}
+
+.fa-solid fa-envelope{
+margin-left: 30px;
+}

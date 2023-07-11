@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 110px;
+}
+
+header li {
+     display: inline-block;
+     padding: 10px 20px;
+}
+header a{
+     text-decoration: none; 
+     color: black;
+     font-size: medium;
+     font-weight: bolder;
+     text-transform: capitalize ;
+     color:black;
+}
+header a:hover {
+      color: green;
+      border-bottom: 2px black solid;
+      transition: 0.9s all;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    /* margin-top: 10px; */
+ }
+ .sign-btn,.log-btn {
+       color: green;
+       padding: 10px 10px;
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: medium;
+      width: 100px;
+      height: 35px;
+ }
+ .sign-btn {
+       margin-left:10px;
+ }
+ .sign-btn:hover,.log-btn:hover {
+       color: white;
+       background-color: green;
+       transition: 0.5s all;
+ }
+.inner-market{
+    height: 80rem;
+    width: auto;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 0 0 100px;
+    padding: 0;
+   
+}
+.yellow-btn {
+     background-color:yellow;
+     color: black;
+     font-weight: bold;
+     font-size: medium;
+     height: 30px;
+     width: 100px;
+     text-transform: capitalize;
+     margin-left: 40px;
+     border-radius: 10px;
+
+}
+.search {
+       margin-right: 100px;
+}
+ .search{
+      
+      margin: 90px;
+      width: 1000px;
+      margin-right: 90px;
+      height: 45px;
+      border-radius: 35px;
+ }
+.mkt-text{
+     font-weight: bolder;
+     font-size: medium;
+     margin: 0px 10px;
+     text-transform: capitalize;
+
+}
+.product-cover {
+    
+     border: 2px solid green ;
+     width: 290px;
+     border-radius: 30px;
+     height: 300px;
+     margin: 40px 20px;
+     padding:9px;
+}
+.farm-product {
+
+     width: 290px;
+     height: 180px; 
+     border-radius: none;
+      border-top-right-radius: 20px;
+      border-top-left-radius:20px;
+}
+.farm-product:hover {
+     background-color: green;
+    border: 2px yellow solid;
+    transition: 0.5s all;
+}
+     .down-text {
+           background-color: rgb(46, 177, 46);
+      
+           height: 150px;
+           text-align: center;
+           font-weight: bolder;
+           font-size: larger;
+           text-transform: capitalize;
+           color: white;
+     } 
+     .p-down-inner {
+       font-weight: bold;
+       font-size: medium;
+       text-transform: capitalize;
+     }
+     .ftr{
+       display: flex;
+       justify-content: space-evenly;
+        align-items: center;
+       
+     }
+     #input-ftr {
+      height: 30px;
+      width: 200px;
+     }
+     .button-ftr {
+      height: 35;
+      background-color: black;
+      color: white;
+      font-weight: bolder;
+      margin-left: -45px;
+     }
+  .footer-border {
+    height: 500px;
+    width: 300px;
+  }
+  .ftr-txt {
+     color: white;
+  }
+ footer {
+       background-color: black;
+       color: white;
+      height: 400px;
+ }
+
+@media (max-width:650px) {
+          
+      .inner-market{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 250rem;
+            margin-left: 40px;
+           
+      }
+      .ftr {
+            flex-wrap: wrap;
+      }
+      header  {
+        margin-top: -100px;
+        height: 150px;
+        flex-wrap: wrap;
+        padding-top: 100px;
+      }
+      footer {   
+        height: 900px;
+      }
+.sign-btn,.log-btn{
+      margin-top: -50px;
+}
+     .search {
+       margin: 0;
+       width: 420px;
+       margin-right: -100px;
+     }
+     .fa fa-magnifying-glass {
+      margin-left: -150px
+     } 
+     .down-text{
+       font-weight: lighter;
+       height: 100px;
+       text-transform: none;
+     }
+     .div-1 , .div-2 {
+        flex-direction: row;
+     }
+       }
+/* 
+       @media (max-width:768px) {
+            footer {
+                   height: 400px ;
+            }
+            .inner-market {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  grid-template-rows: 1fr 1fr;
+                  height: 2000px;
+                  
+            }
+            .market {
+               
+                  margin-left:-100px;
+            }
+            .search {
+                   margin: 100px;
+                   width: 500px;
+            }
+       * }  */

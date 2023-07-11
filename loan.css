@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+align-items: center;
+height: 110px;
+}
+
+header li {
+ display: inline-block;
+ padding: 10px 20px;
+}
+header a{
+ text-decoration: none; 
+ color: black;
+ font-size: medium;
+ font-weight: bolder;
+ text-transform: capitalize ;
+ color:black;
+}
+header a:hover {
+  color: green;
+  border-bottom: 2px black solid;
+  transition: 0.9s all;
+}
+img{
+height: 100px;
+width: 100px;
+margin-right: auto;
+/* margin-top: 10px; */
+}
+.sign-btn,.log-btn {
+   color: green;
+   padding: 10px 10px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: medium;
+  width: 100px;
+  height: 35px;
+}
+.sign-btn {
+   margin-left:10px;
+}
+.sign-btn:hover,.log-btn:hover {
+   color: white;
+   background-color: green;
+   transition: 0.5s all;
+}
+.first-loan {
+     width: 500px;
+     height: 150px;
+     background-color: green;
+     border-radius: 10px;
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     font-weight: bolder;
+     font-size: larger;
+     text-transform: capitalize;
+      margin: 30px; 
+}
+.loan-text {
+     margin: 10px;
+}
+.loan-button{
+     width: 100px;
+     height: 40px;
+     border-radius: 20px;
+     font-weight: bolder;
+     font-size: medium;
+     color: black;
+}
+.loan {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    margin-left: 50px;
+}
+.loan-img{
+     height: 500px;
+     width:  800px;
+     border-radius: 20px;
+     margin-left: 300px;
+}
+.loan-info {
+     height: 1000px;
+     
+}
+.loan-img2{
+     height: 400px;
+     width: 400px;
+}
+.lov {
+     height: 50px;
+     width: 400px;
+     background-color: green;
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+     text-transform: capitalize;
+     border-radius: 10px;
+    
+}
+.lov2 {
+    color: white;
+    font-weight: bolder;
+    font-size:2rem;
+    
+}
+.duration-btn-cont {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 20px;
+     
+      
+}
+.duration-btn {
+     height: 50px;
+     width: 90px;
+    background-color: whitesmoke;
+     color: black;
+      font-weight:bolder ;
+     font-size: medium; */
+      margin-right:30px;
+     border-radius: 10px;
+}
+.duration-btn:hover {
+      background-color: green;
+      transition: 0.5s all;
+}
+select{
+     background-color: rgb(211, 209, 209);
+      width: 400px;
+      color: green;
+      height: 30px;
+      border-radius: 10px;
+     font-weight: bolder ;
+     font-size: 1rem;
+}
+.select-cont{
+      margin: 10px;
+}
+.second-loan-cont{
+     width: 500px;
+     height: 400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.next-btn {
+     width: 250px;
+      background-color:green;
+       margin-top: 20px; 
+       height: 30px; color:white; 
+        font-weight: bolder; 
+         font-size: medium; 
+         text-transform: capitalize;
+          margin-left: 60px;
+           border-radius: 5px;
+}
+.fine-girl {
+      height: 500px;
+      width: 550px;
+      border-radius: 25px;
+}
+.kin{
+     background-color: rgb(211, 209, 209);
+     width: 400px;
+     color: green;
+     height: 30px;
+     border-radius: 10px;
+    font-weight: bolder ;
+    font-size: 1rem;
+}
+.another-section{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 150px;
+      margin-left: 100px;
+      height: 800px;
+     
+}
+
+.next-btn2 {
+     width: 250px;
+      background-color:green;
+       margin-top: 20px; 
+       height: 30px; color:white; 
+        font-weight: bolder; 
+         font-size: medium; 
+         text-transform: capitalize;
+          margin-left: 40px;
+           border-radius: 5px;
+}
+
+.down-text {
+     background-color: rgb(46, 177, 46);
+     height: 150px;
+  } 
+  
+  .p-down-inner {
+     color: white;
+     font-weight: bolder;
+     font-size: larger;
+     text-transform: capitalize;
+     text-align: center;
+     white-space: normal;
+  }
+  footer{
+  background-color:black;
+  color: white;
+  height: 350px;
+  width: auto;   
+  }
+  .ftr{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  }
+  #input-ftr {
+  height: 30px;
+  width: 250px;
+  }
+  
+  .footer-border {
+  height: 250px;
+  width: 380px;
+  }
+  .ftr-txt {
+  color: white;
+  font-weight: bold;
+  }
+  
+  .fa-solid fa-envelope{
+  margin-left: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+}
